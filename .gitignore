@@ -1,2 +1,4 @@
 
 _posts/.DS_Store
+_site
+Gemfile.lock
