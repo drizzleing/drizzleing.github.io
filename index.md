@@ -27,6 +27,7 @@ group: navigation
 ## 文章示例
 
 这个博客包含文章示例，来帮助展示页面和博客数据。
+
 如果你不再需要这些示例，直接删除文件夹`_posts/core-samples`
 
     $ rm -rf _posts/core-samples
@@ -42,4 +43,5 @@ group: navigation
 ## 下一步行动
 
 这个主题还未完成，如果你想成为贡献者，[请fork](http://github.com/plusjade/jekyll-bootstrap)！
+
 我们需要清理主题，用主题特定的标记示例制作主题使用指南。
