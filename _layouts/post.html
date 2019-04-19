@@ -5,3 +5,17 @@ layout: default
 ---
 {% include JB/setup %}
 {% include themes/twitter/post.html %}
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'drizzleing',
+    repo: 'drizzleing.github.io',
+    oauth: {
+        client_id: 'fdc46d8ebd31cbdbc26c',
+        client_secret: 'c332f9a44f6bfd438522e82a4670b0c738736c26',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
