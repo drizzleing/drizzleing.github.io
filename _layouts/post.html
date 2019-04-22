@@ -1,22 +1,29 @@
 ---
-theme :
-  name : twitter
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/twitter/post.html %}
-<div id="gitmentContainer"></div>
-<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-<script src="https://jjeejj.github.io/js/gitment.js"></script>
-<script>
-var gitment = new Gitment({
-    id: '{{page.id}}',
-    owner: 'drizzleing',
-    repo: 'drizzleing.github.io',
-    oauth: {
-        client_id: 'c536da6ce27bda31559b',
-        client_secret: '3aec2737c5991899754d69f13457262b6dc67fb1',
-    },
-});
-gitment.render('gitmentContainer');
-</script>
+<div class="container docs-container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="sidebar hidden-print" role="complementary">
+        {% include lefttree.html %} 
+      </div>
+    </div>
+    <div class="col-md-9" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+            <header class="post-header">
+              <h1 class="post-title">{{ page.title }}</h1>
+              <!--
+                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+              -->
+              <div class="meta">Posted on <span class="postdate">{{ page.date | date: "%b %d, %Y" }}</span> By <a target="_blank" href="{{site.url}}">{{ site.author }}</a></div>
+              <br />
+            </header>
+            <article class="post-content">
+              {{ content }}
+            </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
