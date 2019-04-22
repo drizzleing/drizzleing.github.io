@@ -6,4 +6,6 @@
 5. 然后找到某大神的gitment评论组件，将评论内容记录到github的issue中，唯一的不便就是需要github账号登录后才能评论，不过终于可以正常用了。
 ---
 感谢[Jekyll Bootstrap](http://jekyllbootstrap.com) ，让我体验到自建博客的乐趣，把Github+GitPages+Jekyll撸出了一点成果。
-这一阶段性的成果，通过jekyllbootstrap分支存档一下，后面会重新规划博客的内容，从一个整理者和传播者，向一个创作者逐步转变。
+期间还学会了gem，brew，gitbook，Atom，Typora，Sublime等一系列命令和工具的基本使用。
+这一阶段性的成果，通过jekyllbootstrap分支存档一下。
+后面会重新规划博客的内容，从一个整理者和传播者，向一个创作者逐步转变。
