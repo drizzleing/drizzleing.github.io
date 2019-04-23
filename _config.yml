@@ -5,8 +5,8 @@ author: Drizzle
 url: https://drizzleing.github.io
 resume_site: https://drizzleing.github.io
 github: https://github.com/drizzleing/
-baseurl: 
-description: Actually, less is more!
+baseurl:
+description: Record every bit of growth
 meta_description: 熊本随心;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
 motto: It's our wits that make us men.
 banner: 学而不思则罔，思而不学则殆。
@@ -22,4 +22,4 @@ github_username: drizzleing
 # Build settings
 markdown: kramdown
 
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+baidu_analysis: f498d90ac401b90c2a7c633d9ca6bb4b
