@@ -22,6 +22,7 @@ Jekyll站点建立有整整一年了，拖到今天才写下自己的第一篇�
 
 1. 官方提供[Postgres.app](https://postgresapp.com/)据说是MacOS傻瓜式安装app，不过是从github下载，网速你懂的，实在下载不下来，于是就放弃了
 2. 第二种方式，MacOS的Homebrew也提供了非常方便的安装包，命令如下：
+
 ```shell
 apple@drizzledeMac-mini % brew install postgresql
 Updating Homebrew...
@@ -189,7 +190,7 @@ Traceback (most recent call last):
 /usr/local/Homebrew/Library/Homebrew/utils/github.rb:270:in `raise_api_error': curl failed!   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current (GitHub::Error)
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
-curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.github.com:443 
+curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.github.com:443
 ```
 
 居然还是有报错，而且更看不懂了……既然如此我就把perl给卸载了看看
@@ -202,7 +203,7 @@ Uninstalling /usr/local/Cellar/perl/5.30.2_1... (2,444 files, 62MB)
 第三次brew install
 
 ```shell
-apple@drizzledeMac-mini setflags % brew install postgresql 
+apple@drizzledeMac-mini setflags % brew install postgresql
 Updating Homebrew...
 ^C==> Downloading https://homebrew.bintray.com/bottles/postgresql-12.2.catalina.bo
 ==> Downloading from https://akamai.bintray.com/13/13fe70aba68cf707af9a1f712041f
