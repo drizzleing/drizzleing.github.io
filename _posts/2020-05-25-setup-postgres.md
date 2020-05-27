@@ -6,6 +6,8 @@ categories: 技术研究
 tag: Postgres
 ---
 
+### Postgresql数据库入门系列之一：MacOS下如何安装Postgresql
+
 Jekyll站点建立有整整一年了，拖到今天才写下自己的第一篇博客，居然是关于Postgres的，我自己都没想到
 
 #### 背景
