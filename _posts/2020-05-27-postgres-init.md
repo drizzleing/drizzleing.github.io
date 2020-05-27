@@ -32,7 +32,7 @@ apple@drizzledeMac-mini var % psql postgres
 psql (12.2)
 Type "help" for help.
 
-postgres=# create user postgres superuser with password '123456';
+postgres=# create user postgres with superuser password '123456';
 CREATE ROLE
 postgres=#
 ```
