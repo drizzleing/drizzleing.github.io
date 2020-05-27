@@ -49,4 +49,6 @@ pgAdmin的下载地址：<https://www.pgadmin.org/download/>
 ---
 #### 写在最后：
 
-关于Jekyll又发现了两个小问题：1、图片怎么上传和引用的？2、toc目录怎么使用的？且听下回分解。
+两个小进步：1、<http://editor.swagger.io> 引入yml正常工作了；2、vscode中的main.go可以正常运行和访问了
+
+两个小问题（关于Jekyll）：1、图片怎么上传和引用的？2、toc目录怎么使用的？且听下回分解。
